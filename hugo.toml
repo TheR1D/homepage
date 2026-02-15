@@ -45,3 +45,8 @@ theme = 'mana'
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
+
+[markup]
+  [markup.highlight]
+    style = "catppuccin-macchiato" 
+    lineNos = true

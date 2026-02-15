@@ -1,0 +1,17 @@
+/* Custom inline code styling */
+code:not(pre code) {
+  background: rgba(139, 92, 246, 0.15);
+  color: #a78bfa;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  font-family: 'JetBrains Mono', monospace;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+[data-theme="light"] code:not(pre code) {
+  background: rgba(107, 33, 168, 0.1);
+  color: #7c3aed;
+  border-color: rgba(107, 33, 168, 0.2);
+}
+
