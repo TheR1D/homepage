@@ -1,0 +1,47 @@
+baseURL = 'https://sadykov.dev/'
+languageCode = 'en-us'
+title = 'Farkhod Sadykov'
+theme = 'mana'
+
+[params]
+  description = "Hi, my names is Farkhod, I build backend services, work on media/streaming infrastructure and developer tools. Here you'll find my projects, and occasional blog posts about tech."
+  favicon = "images/fav.png"
+  # footerText = "Built with Hugo and Mana theme"  # Optional
+  
+  # Hero section title (optional - defaults to site.Title)
+  heroTitleLine1 = "Dev Journal"
+  heroTitleLine2 = "whoami"
+
+[params.avatar]
+  url = "images/animation.gif"
+
+[params.avatar.about]
+  url = "../images/fs.jpeg"
+
+[params.social]
+  github = "https://github.com/ther1d"
+  linkedin = "https://www.linkedin.com/in/farkhod-sadykov"
+  sponsor = "https://github.com/sponsors/TheR1D"
+
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 20
+
+[[menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 40
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
