@@ -1,0 +1,11 @@
+{{- $url := .Destination -}}
+{{- $isExternal := false -}}
+
+{{- if hasPrefix $url "http://" -}}
+  {{- $isExternal = true -}}
+{{- else if hasPrefix $url "https://" -}}
+  {{- $isExternal = true -}}
+{{- end -}}
+
+<a href="{{ $url }}" target="_blank" rel="noopener noreferrer"{{- with .Title }} title="{{ . }}"{{- end }}>{{ .Text | safeHTML }}</a>
+
