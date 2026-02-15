@@ -56,7 +56,7 @@ hugo
 The GitHub Actions workflow (`.github/workflows/hugo.yml`):
 - Triggers on any push to the `main` branch
 - Can also be manually triggered from the Actions tab
-- Uses the official Hugo Setup action (`peaceiris/actions-hugo@v3`)
+- Uses the official Hugo Setup action (`peaceiris/actions-hugo@v3`) with latest Hugo version
 - Builds the site with `hugo --minify`
 - Deploys to GitHub Pages using `actions/deploy-pages@v4`
 
