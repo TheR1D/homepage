@@ -1,10 +1,9 @@
 +++
-date = '2026-02-15T09:08:35+01:00'
+date = '2026-02-15T00:00:00+01:00'
 draft = false
-title = 'My First Post'
+title = 'Hello World'
 +++
 ## Introduction
 
 This is **bold** text, and this is *emphasized* text.
-
-Visit the [Hugo](https://gohugo.io) website!
+GitHub [profile](https://github.com/ther1d)
